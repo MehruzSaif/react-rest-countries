@@ -23,8 +23,8 @@ const Countries = () => {
                 {
                     countries.map(country => <Country
                         country={country}
-                    >
-                    </Country>)
+                        key={country.cca3}
+                    ></Country>)
                 }
             </div>
         </div>

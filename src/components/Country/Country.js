@@ -3,6 +3,7 @@ import './Country.css';
 
 const Country = (props) => {
     const { name, flags, area, population, region } = props.country;
+    // console.log(props.country);
 
     return (
         <div className='country'>
