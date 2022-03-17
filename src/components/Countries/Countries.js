@@ -14,8 +14,8 @@ const Countries = () => {
     }, [])
 
     return (
-        <div>
-            <h1>How much Countries: {countries.length}</h1>
+        <div className='container'>
+            <h2>How much Countries: {countries.length}</h2>
             {/* {
                 countries.map(country => console.log(country))
             } */}

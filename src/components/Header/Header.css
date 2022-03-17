@@ -1,0 +1,11 @@
+.menu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(68, 63, 61);
+    padding: 20px;
+    font-weight: 700;
+}

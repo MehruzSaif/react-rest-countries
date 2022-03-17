@@ -6,7 +6,7 @@ const Country = (props) => {
     // console.log(props.country);
 
     return (
-        <div className='country'>
+        <div className='country shadow-lg'>
 
             <h3>Name: {name.common}</h3>
             <img src={flags.png} alt="" />
@@ -15,9 +15,9 @@ const Country = (props) => {
             <p><small><b>Region: {region}</b></small></p>
 
             {/* <h2>Country Name: {name.common}</h2>
-            <h4>Population: {population}</h4>
-            <p><small>Area: {area}</small></p>
-            <p><small>Region: {region}</small></p> */}
+                    <h4>Population: {population}</h4>
+                    <p><small>Area: {area}</small></p>
+                    <p><small>Region: {region}</small></p> */}
         </div>
     );
 };
